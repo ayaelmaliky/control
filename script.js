@@ -1,10 +1,6 @@
-document.addEventListener("DOMContentLoaded", function () {
+const btn = document.getElementById("btn");
+const message = document.getElementById("message");
 
-    const btn = document.getElementById("btn");
-    const message = document.getElementById("message");
-
-    btn.addEventListener("click", function () {
-        message.textContent = "Bienvenue sur mon portfolio 🎉";
-    });
-
+btn.addEventListener("click", function () {
+    message.textContent = "Bienvenue sur mon portfolio 🎉";
 });
