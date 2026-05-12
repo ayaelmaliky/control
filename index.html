@@ -1,26 +1,84 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>benvenue sur mon portfolio</h1>
-    <p>je suis en development web </p>
-    <a href="https://github.com/ayaelmaliky/control.git" target="_blank">github</a> 
-    <header><p>My header</p></header>
-  <nav>
-    <a href="#accueil">Accueil</a>
-    <a href="#apropos">À propos</a>
-    <a href="#competences">Compétences</a>
-    <a href="#projets">Projets</a>
-    <a href="#contact">Contact</a>
-</nav>
-    <main><p>My main content</p></main>
-    <section><p>My section</p></section>
-    <footer><p>My footer</p></footer>
+
+    <!-- Accueil -->
+    <section id="accueil">
+        <h1>Bienvenue sur mon portfolio</h1>
+        <p>Je suis en développement web</p>
+        <a href="https://github.com/ayaelmaliky/control.git" target="_blank">
+            Mon GitHub
+        </a>
+    </section>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#accueil">Accueil</a>
+        <a href="#apropos">À propos</a>
+        <a href="#competences">Compétences</a>
+        <a href="#projets">Projets</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- À propos -->
+    <section id="apropos">
+        <h2>À propos</h2>
+        <p>
+            Je suis une étudiante passionnée par le développement web 
+            et la création de sites modernes et interactifs.
+        </p>
+    </section>
+
+    <!-- Compétences -->
+    <section id="competences">
+        <h2>Compétences</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>PHP</li>
+            <li>Laravel</li>
+            <li>React</li>
+        </ul>
+    </section>
+
+    <!-- Projets -->
+    <section id="projets">
+        <h2>Mes projets</h2>
+
+        <div class="card">
+            <h3>Projet Bibliothèque</h3>
+            <p>Application de gestion de bibliothèque avec Laravel.</p>
+        </div>
+
+        <div class="card">
+            <h3>Projet Sport</h3>
+            <p>Site de gestion de club sportif avec authentification.</p>
+        </div>
+
+        <div class="card">
+            <h3>Portfolio Personnel</h3>
+            <p>Création d’un portfolio moderne en HTML et CSS.</p>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email : aya@example.com</p>
+        <p>Téléphone : 06 00 00 00 00</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 - Mon Portfolio</p>
+    </footer>
 
 </body>
 </html>
